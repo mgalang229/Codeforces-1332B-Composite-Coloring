@@ -42,7 +42,7 @@ public class AuthorSol {
 			for (int i = 0; i < n; i++) {
 				arr[getPrimeDiv(a[i])].add(i);
 			}
-			int[] colors = new int[10001];
+			int[] colors = new int[n];
 			Arrays.fill(colors, 0);
 			int color = 1;
 			for (int i = 1; i <= 1000; i++) {
